@@ -1,4 +1,4 @@
-from typing import Annotated
+from typing import Annotated,Optional
 from pydantic import Field, PositiveFloat
 from workout.categoria.schemas import CategoriaIn
 from workout.centro_treinamento.schemas import CentroTreinamentoAtleta
